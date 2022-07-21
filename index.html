@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/estilo.css" />
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+
+    <title>Choose your character</title>
+  </head>
+
+  <body>
+    <main>
+      <header class="cabecalho">
+        <h1 class="titulo">Character Select</h1>
+      </header>
+
+      <div class="selecao-de-personagens">
+        <div class="personagem-grande personagem-jogador-1">
+          <img src="./src/imagens/batman.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1" />
+          <div class="nome">
+            <h2>Batman</h2>
+          </div>
+        </div>
+
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="batman" data-name="Batman">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/batman.jpg" alt="Personagem Batman" />
+          </li>
+
+          <li class="personagem" id="catwoman" data-name="Catwoman">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/catwoman.jpg" alt="Personagem Catwoman" />
+          </li>
+          <li class="personagem jogador-2-selecionado" id="arrow" data-name="Arqueiro Verde">
+            <span class="tag">2P</span>
+            <img src="./src/imagens/arrow.jpg" alt="Personagem Arqueiro Verde" />
+          </li>
+
+          <li class="personagem" id="batwoman" data-name="Batwoman">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/batwoman.jpg" alt="Personagem Batwoman" />
+          </li>
+
+          <li class="personagem" id="black-canary" data-name="Canário Negro">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/black-canary.jpg" alt="Personagem Canário Negro" />
+          </li>
+
+          <li class="personagem" id="huntress" data-name="Caçadora">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/huntress.jpg" alt="Personagem Huntress" />
+          </li>
+
+          <li class="personagem" id="batgirl" data-name="Batgirl">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/batgirl.jpg" alt="Personagem Batgirl" />
+          </li>
+
+          <li class="personagem" id="robin" data-name="Robin">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/robin.jpg" alt="Personagem Robin" />
+          </li>
+
+          <li class="personagem" id="arsenal" data-name="Arsenal">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/arsenal.jpg" alt="Personagem Arsenal" />
+          </li>
+
+          <li class="personagem" id="Artemis-Crock" data-name="Artemis">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/Artemis-Crock.jpg" alt="Personagem Artemis-Crock" />
+          </li>
+        </ul>        
+
+        <div class="personagem-grande personagem-jogador-2">
+          <img src="./src/imagens/arrow.png" alt="Personagem selecionado jogador 2" />
+          <div class="nome">
+            <h2>Arqueiro Verde</h2>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
